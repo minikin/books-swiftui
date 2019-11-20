@@ -26,29 +26,13 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-### SwiftPM ###
-Packages
-.build/
-xcuserdata
-DerivedData/
-*.xcodeproj
-
-
 ### Xcode ###
-# Xcode
-#
-# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
 
-## User settings
-xcuserdata/
-
-## compatibility with Xcode 8 and earlier (ignoring not required starting Xcode 9)
-*.xcscmblueprint
-*.xccheckout
-
-## compatibility with Xcode 3 and earlier (ignoring not required starting Xcode 4)
+## Build generated
 build/
-*.moved-aside
+DerivedData/
+
+## Various settings
 *.pbxuser
 !default.pbxuser
 *.mode1v3
@@ -57,13 +41,34 @@ build/
 !default.mode2v3
 *.perspectivev3
 !default.perspectivev3
+xcuserdata/
 
-## Xcode Patch
-*.xcodeproj/*
-!*.xcodeproj/project.pbxproj
-!*.xcodeproj/xcshareddata/
-!*.xcworkspace/contents.xcworkspacedata
-/*.gcno
+## Other
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
 
-### Xcode Patch ###
-**/xcshareddata/WorkspaceSettings.xcsettings
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+#
+# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
+# Packages/
+# Package.pins
+Package.resolved
+.build/
+
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+.DS_Store
+
