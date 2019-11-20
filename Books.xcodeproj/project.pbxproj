@@ -60,13 +60,9 @@
 		8B79B10023853D89007DFC01 /* Books */ = {
 			isa = PBXGroup;
 			children = (
-				8B79B10123853D89007DFC01 /* AppDelegate.swift */,
-				8B79B10323853D89007DFC01 /* SceneDelegate.swift */,
-				8B79B10823853D89007DFC01 /* ContentView.swift */,
-				8B79B10A23853D8C007DFC01 /* Assets.xcassets */,
-				8B79B10F23853D8C007DFC01 /* LaunchScreen.storyboard */,
-				8B79B11223853D8C007DFC01 /* Info.plist */,
-				8B79B10523853D89007DFC01 /* Books.xcdatamodeld */,
+				8B79B11D23854964007DFC01 /* Resources */,
+				8B79B11C2385492D007DFC01 /* Screens */,
+				8B79B11B238548F1007DFC01 /* Application */,
 				8B79B10C23853D8C007DFC01 /* Preview Content */,
 			);
 			path = Books;
@@ -78,6 +74,42 @@
 				8B79B10D23853D8C007DFC01 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8B79B11B238548F1007DFC01 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				8B79B11E23854ABC007DFC01 /* CoreData */,
+				8B79B10123853D89007DFC01 /* AppDelegate.swift */,
+				8B79B10323853D89007DFC01 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		8B79B11C2385492D007DFC01 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				8B79B10823853D89007DFC01 /* ContentView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		8B79B11D23854964007DFC01 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8B79B10F23853D8C007DFC01 /* LaunchScreen.storyboard */,
+				8B79B10A23853D8C007DFC01 /* Assets.xcassets */,
+				8B79B11223853D8C007DFC01 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8B79B11E23854ABC007DFC01 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				8B79B10523853D89007DFC01 /* Books.xcdatamodeld */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +151,7 @@
 				};
 			};
 			buildConfigurationList = 8B79B0F923853D89007DFC01 /* Build configuration list for PBXProject "Books" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -300,7 +332,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Books/Preview Content\"";
 				DEVELOPMENT_TEAM = GW82A8W73Z;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Books/Info.plist;
+				INFOPLIST_FILE = Books/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,7 +352,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Books/Preview Content\"";
 				DEVELOPMENT_TEAM = GW82A8W73Z;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Books/Info.plist;
+				INFOPLIST_FILE = Books/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
