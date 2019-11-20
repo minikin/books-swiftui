@@ -60,10 +60,10 @@
 		8B79B10023853D89007DFC01 /* Books */ = {
 			isa = PBXGroup;
 			children = (
-				8B79B11D23854964007DFC01 /* Resources */,
-				8B79B11C2385492D007DFC01 /* Screens */,
 				8B79B11B238548F1007DFC01 /* Application */,
 				8B79B10C23853D8C007DFC01 /* Preview Content */,
+				8B79B11D23854964007DFC01 /* Resources */,
+				8B79B11C2385492D007DFC01 /* Screens */,
 			);
 			path = Books;
 			sourceTree = "<group>";

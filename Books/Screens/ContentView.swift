@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  Books
 //
-//  Created by Developer on 20.11.19.
+//  Created by Sasha Prokhorenko on 20.11.19.
 //  Copyright © 2019 Sasha Prokhorenko. All rights reserved.
 //
 
