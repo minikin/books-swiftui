@@ -151,7 +151,7 @@
 				};
 			};
 			buildConfigurationList = 8B79B0F923853D89007DFC01 /* Build configuration list for PBXProject "Books" */;
-			compatibilityVersion = "Xcode 10.0";
+			compatibilityVersion = "Xcode 11.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (

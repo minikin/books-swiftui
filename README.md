@@ -10,7 +10,7 @@ Books is iOS/iPadOS/macOS app which helps to  manage your favorite books.
 
 **Point People:** [Sasha Prokhorenko](mailto:djminikin@gmail.com)
 
-**CI:** [![Build Status](https://app.bitrise.io/app/693d5288e6e84421/status.svg?token=LSxCFwkI7mKZNc9SVNhM9w)](https://app.bitrise.io/app/693d5288e6e84421)
+**CI:** [![Build Status](https://app.bitrise.io/app/0ed3e2e48e0d9e8b/status.svg?token=d54LNFUhSdRINlIFoi9jXQ)](https://app.bitrise.io/app/0ed3e2e48e0d9e8b)
 
 ---
 
@@ -40,7 +40,7 @@ In the project I don't use any third party dependencies.
 ## Installation
 
 ```sh
-git clone https://github.com/minikin/books-swiftui.git && cd books-swiftui
+git clone https://github.com/minikin/books-swiftui.git && cd books-swiftui && xed .
 ```
 
 ---
@@ -82,4 +82,4 @@ The Books project contains one unit test target: `BooksTests`.
 
 ## Warnings
 
-Please, keep in mind that SwiftUI are still in Beta.
+Please, keep in mind that SwiftUI is still in an early stage.
